@@ -8,13 +8,14 @@
 
 ### 개요
 
-- 한줄 소개 : WebRTC 화상 채팅을 이용한 코디 조언 서비스
+- 한줄 소개 : 온라인 옷장과 화상 채팅을 이용한 코디 조언 서비스
 - 서비스 명 : **`HOW Do I Look`**
 
 <br>
 
 ### 타겟 🎯
 
+- 자신이 가지고 있는 옷들을 간편하게 관리하고 코디해보고 싶은 사람들
 - 옷을 잘 못입지 못해 다른 사람들에게 조언을 구하고 싶은 사람들
 - 자신의 패션 철학을 공유하고 옷과 관련된 소통을 진행해보고 싶은 사람들
 
@@ -28,6 +29,7 @@
 
 ### 목적
 
+- 옷 관리를 잘 하지 못하는 사람들의 간편한 옷장 관리 제공
 - 옷에 관심이 있는 사람들이 소통할 수 있는 커뮤니티의 장 마련
 
 <br>
@@ -47,73 +49,12 @@
 <br><br>
 
 ## 🧑‍🤝‍🧑 멤버구성
-<table style="text-align: center;">
-  <tr>
-    <th>신산하</th>
-    <th>박세윤</th>
-    <th>손정민</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/SahhaShin"><img src="https://avatars.githubusercontent.com/u/33896511?v=4" alt="신산하 사진"></a></td>
-    <td><a href="https://github.com/ParkSeYun98"><img src="https://avatars.githubusercontent.com/u/81186461?v=4" alt="박세윤 사진"></a></td>
-    <td><a href="https://github.com/jungmin0049"><img src="https://avatars.githubusercontent.com/u/74610027?v=4" alt="손정민 사진"></a></td>
-  </tr>
-  <tr>
-    <td>Team Leader / Front</td>
-    <td>Back / Infra / Front</td>
-    <td>Front</td>
-  </tr>
-  <tr>
-    <td>
-    - 프로토타입 제작 및 디자인 (Figma)<br>
-    - 컴포넌트 구성 및 API 기능 적용 (Live/Feed/Mypage/옷장/채팅/랭킹)<br>
-    - 웹 소켓 통신을 이용한 채팅(1:1 / M:N) / 방입장 / 방퇴장 / 블랙리스트 구현<br>
-    - 기상청 API를 활용한 OOTD 서비스 제작<br>
-    </td>
-    <td>
-    - (Infra) Docker를 활용한 프로젝트 수동 배포<br>
-    - (Back) Spring Security를 활용한 인증 / 인가 (JWT 토큰 방식)<br>
-    - (Back) Redis를 활용한 실시간 Ranking 서비스<br>
-    - (Back) Scheduler를 활용하여 일정 주기별 특정 서비스 제공<br>
-    - (Back) User, Ranking, Badge 기반 Backend API<br>
-    - (Front) 마이페이지, 랭킹 페이지 구현<br>
-    - (Front) 팔로우 기반 서비스 구현<br>
-    </td>
-    <td>
-    - 오픈비두 Api를 활용한 화상회의 컴포넌트 구현(카메라, 오디오 설정 포함)<br>
-    - 페이지네이션 구현, 검색 구현(동기화를 이용한 실시간 목록 갱신 방식)<br>
-    - 로그인 컴포넌트 및 API 적용<br>
-    </td>
-  </tr>
-</table>
 
-<table style="text-align: center;">
-  <tr>
-    <th>김은서</th>
-    <th>유태영</th>
-    <th>정형준</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/EunSeo119"><img src="https://avatars.githubusercontent.com/u/64001133?v=4" alt="김은서 사진"></a></td>
-    <td><a href="https://github.com/taeyeongryu"><img src="https://avatars.githubusercontent.com/u/122500557?v=4" alt="유태영 사진"></a></td>
-    <td><a href="https://github.com/Brojjun"><img src="https://avatars.githubusercontent.com/u/122707977?v=4" alt="정형준 사진"></a></td>
-  </tr>
-  <tr>
-    <td>Back</td>
-    <td>Back</td>
-    <td>Back</td>
-  </tr>
-  <tr>
-    <td>- 옷장, 스트리밍, 이미지 관련 API<br>
-        - 이미지 배경제거<br>
-        - 프론트 메인페이지</td>
-    <td>- 피드, 댓글, 블랙리스트, 팔로우 API<br>
-        - UCC 총 감독, 주연배우</td>
-    <td>- 웹 소켓 프로토콜 관련 기능<br>
-        - 채팅 API<br>
-        - 발표</td>
-  </tr>
-</table>
+|                                                                    [신산하](https://github.com/SahhaShin)                                                                    |                        [박세윤](https://github.com/ParkSeYun98)                         |                           [손정민](https://github.com/jungmin0049)                           |                           [김은서](https://github.com/EunSeo119)                            |                        [유태영](https://github.com/taeyeongryu)                         |                            [정형준](https://github.com/Brojjun)                            |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: |
+| <img src="https://avatars.githubusercontent.com/u/33896511?v=4" width="100" height="100"> | <img src="https://avatars.githubusercontent.com/u/81186461?v=4" width="100" height="100"> | <img src="https://avatars.githubusercontent.com/u/74610027?v=4" width="100" height="100"> | <img src="https://avatars.githubusercontent.com/u/64001133?v=4" width="100" height="100"> | <img src="https://avatars.githubusercontent.com/u/122500557?v=4" width="100" height="100"> | <img src="https://avatars.githubusercontent.com/u/122707977?v=4" width="100" height="100"> |
+|                                                                               **Team Leader / Front**                                                                                |                                        **Back / Infra / Front**                                        |                                        **Front**                                        |                                       **Back**                                        |                                      **Back**                                       |                                        **Back**                                         |
+
 
 <br><br>
 
@@ -208,7 +149,7 @@
 
 ### 📌 메인 페이지 / 로그인
 
-![메인페이지_로그인](/uploads/d43f419a62a9dd9474706ace60e8b8f2/메인페이지_로그인.gif)
+![메인페이지_로그인](./exec/demonstration/메인페이지_로그인.gif)
 
 - 저희 서비스의 핵심 기능들을 소개하는 메인 페이지입니다.
 
@@ -220,7 +161,7 @@
 
 ### 📌 나만의 옷장
 
-  ![옷장](/uploads/ca67c5b4a27ee36e658d7de49de3b7ee/옷장.gif)
+  ![옷장](./exec/demonstration/옷장.gif)
 
  - 나만의 옷장에 내가 가진 의류를 간단한 설명과 카테고리 분류와 함께 **등록**합니다.
   
@@ -234,7 +175,7 @@
 
 ### 📌 OOTD(나만의 코디)
 
-![옷_코디](/uploads/18c34626f83089b430086549d3681626/옷_코디.gif)
+![옷_코디](./exec/demonstration/옷_코디.gif)
 
 - 옷장에 등록한 옷들 중, **자주 입는 코디 조합을 저장**해 놓고 언제든지 확인할 수 있습니다.
 
@@ -244,7 +185,7 @@
 
 ### 📌 피드
 
-![피드](/uploads/378ae94c06e561c2c34e9887318e66fe/피드.gif)
+![피드](./exec/demonstration/피드.gif)
 
 - 피드에 나만의 패션을 **등록**할 수 있습니다.
 
@@ -266,7 +207,7 @@
 
 ### 📌 프로필
 
-![마이페이지](/uploads/091b4b2f15e4221e1ae979ca1de7649b/마이페이지.gif)
+![마이페이지](./exec/demonstration/마이페이지.gif)
 
 - 정보를 수정하는 등의 행위는 내 프로필에서만 이루어집니다. 타인의 프로필에서는 ReadOnly 상태입니다.
 
@@ -294,7 +235,7 @@
 
 ### 📌 랭킹
 
-![랭킹](/uploads/a1780136343d5d261f6fa67e52604c52/랭킹.gif)
+![랭킹](./exec/demonstration/랭킹.gif)
 
 - 네 가지 좋아요 종류 별 점수 **랭킹**을 확인할 수 있습니다.
 	
@@ -306,7 +247,7 @@
 
 ### 📌 스트리밍 방 만들기
 
-![방만들기](/uploads/e6dc454fd53f01a1a1c24b0b7029b7ab/방만들기.gif)
+![방만들기](./exec/demonstration/방만들기.gif)
 
 - 스트리밍 리스트 페이지에서 스트리밍 방을 **생성**할 수 있습니다. 
 	
@@ -346,14 +287,19 @@
 
 ### 📌 강퇴하고 스트리밍 종료하기 (스트리밍 생성자 시점)
 
-![강퇴하고_스트리밍_종료하기](/uploads/5945f68030e4622a83367e2b18bfc8d9/강퇴하고_스트리밍_종료하기.gif)
+![강퇴하고_스트리밍_종료하기](./exec/demonstration/강퇴하고_스트리밍_종료하기.gif)
 
 
 <br>
 
 ### 📌 강퇴당하기 (스트리밍 참여자 시점)
 
-![조언자로_들어가서_강퇴당하기](/uploads/4a15304b2b57f5acc228ebe4831b4832/조언자로_들어가서_강퇴당하기.gif)
+![조언자로_들어가서_강퇴당하기](./exec/demonstration/조언자로_들어가서_강퇴당하기.gif)
 
+
+<br>
+
+🙌 보이지 않는 시연영상이 있다면
+[시연영상 보러가기](./exec/demonstration) 를 클릭하면 시연영상들을 확인해 볼 수 있습니다.
 
 <br><br>
